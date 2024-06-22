@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fredoka:wght@300..700&family=Julee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Teko:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fredoka:wght@300..700&family=Julee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Teko:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    font-family: "Outfit", sans-serif;
+}
+.navigationbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-image: url('WhatsApp Image 2024-05-12 at 19.42.05_aeddf11b.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.rightside{
+    padding-right: 250px;
+    padding-top: 10px;
+}
+.a{
+    padding: 10px;
+}
+.leftside{
+    padding-left: 190px;
+}
+body{
+    background-image: url('Dzire.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.image{
+    position: relative;
+    top: 100px;
+}
+.box{
+    padding-top: 200px;
+    padding-left: 300px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
